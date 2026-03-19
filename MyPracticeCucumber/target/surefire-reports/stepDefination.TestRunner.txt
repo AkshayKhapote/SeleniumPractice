@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: stepDefination.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 192.627 s <<< FAILURE! - in stepDefination.TestRunner
+Create new customer Acccount with using new customerID(Create new Customer Account)  Time elapsed: 49.368 s  <<< ERROR!
+java.lang.NullPointerException: No account created
+
+To verify that user can logout the application after login(Verify that LogOut functionality)  Time elapsed: 26.099 s  <<< ERROR!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : You Have Succesfully Logged Out!!}
+  (Session info: chrome=146.0.7680.80): You Have Succesfully Logged Out!!
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc1c85330ff853986df4469e95fd587f, findElement {using=xpath, value=//a[contains(text(),'Log out')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61367}, goog:processID: 35148, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61367/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc1c85330ff853986df4469e95fd587f
+
